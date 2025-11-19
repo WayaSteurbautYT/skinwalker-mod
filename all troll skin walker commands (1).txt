@@ -1,0 +1,209 @@
+Skinwalker normal 
+/skin player @s set https://files.catbox.moe/cb8c8a.png
+
+skin walker waya 
+/skin player @s set https://files.catbox.moe/qxdjf2.png
+
+skin walker lucas
+/skin player @s set https://files.catbox.moe/7fs0c4.png
+
+babi skinwalker
+/skin player @s set https://files.catbox.moe/5mbyi0.png
+
+Dream skinwalker
+/skin player @s set https://files.catbox.moe/9gf4xa.png
+
+Skinwalker TechnoBlade
+/skin player @s set https://files.catbox.moe/6v0y8i.png
+
+Craftee Skinwalker
+/skin player @s set https://files.catbox.moe/v2ibhg.png
+
+Mrbeast Skinwalker
+/skin player @s set https://files.catbox.moe/o456fl.png
+
+SkinWalker PrestonPlays
+/skin player @s set https://files.catbox.moe/fbjewy.png
+
+i am steve
+/skin player @s set https://files.catbox.moe/zq4kyt.png
+
+waya steurbaut
+/skin set WayaSteurbautYTR
+
+lucas normal skin
+/skin set Udnof007
+
+babi normal skin
+/skin player @s set https://files.catbox.moe/ur57tg.png
+
+Dream normal skin
+/skin set Dream
+
+Craftee normal skin
+/skin set Parker_Games
+
+Mrbeast normal skin
+/skin set JimmyDonaldson
+
+endermen transform command
+/identity equip @s minecraft:enderman
+
+vanish commands
+/effect give @s minecraft:invisibility 99999 1 true
+second options
+/tellraw @a {"text":"Dream left the game","color":"yellow"}
+/tellraw @a {"text":"MrBeast left the game","color":"yellow"}
+/tellraw @a {"text":"Craftee left the game","color":"yellow"}
+/tellraw @a {"text":"Technoblade left the game","color":"yellow"}
+/tellraw @a {"text":"PrestonPlayz left the game","color":"yellow"}
+/tellraw @a {"text":"Udnof007 left the game","color":"yellow"}
+/tellraw @a {"text":"WayaSteurbautYTR left the game","color":"yellow"}
+
+
+
+
+joined the game
+/effect clear @s minecraft:invisibility
+second options
+/tellraw @a {"text":"Dream joined the game","color":"yellow"}
+/tellraw @a {"text":"MrBeast joined the game","color":"yellow"}
+/tellraw @a {"text":"Craftee joined the game","color":"yellow"}
+/tellraw @a {"text":"Technoblade joined the game","color":"yellow"}
+/tellraw @a {"text":"PrestonPlayz joined the game","color":"yellow"}
+/tellraw @a {"text":"Udnof007 joined the game","color":"yellow"}
+/tellraw @a {"text":"WayaSteurbautYTR joined the game","color":"yellow"}
+
+
+Dream challenges
+Normal
+/tellraw @a {"text":"[Dream] Yo what's up — heard someone’s hacking this world.","color":"aqua"}
+corrupted skinwalker
+/tellraw @a {"text":"[Dream] H̷͍̐̈́͆ě̷͈̲͉͔̬l̷̢̖͠p̴̭̘̮̐̒̕","color":"dark_red","italic":true}
+dream corrupted part 2
+/tellraw @a {"text":"[Dream] W̸̪̥̲̩̱̜̅ḣ̶̻͎̊̽̒́̓̐̐y̷̻̹͈̎̏́͒͂̆͋̔ ̶̢̥̯͛͐̾̽͝d̸̠̠̘̟͓͙́͒͗i̷̺̪̖̮̫͓͛͌͆̄̈́̾̚͝d̶̘̳̫̫̜̏̄͆̓͒͛̈́ ̶̰͐̈́y̵̳͖̋̔̈́͑o̶̡͙͕̤͕̘͈̎͂̽́̓̀͘ư̴̩̩̞̲̱̍̇̽͆͝͝͝ͅ ̶̯͛b̶̜́͗̌̋͗͝r̷̰̘̤͙̜̯̈́͒͂̔͘͝͝į̶̪̀̑͊̎̓̇̕n̶̢̯̹̟̈́̅͘͠͠g̵̛̻̟̞̯̎̏̈́̚ ̶̛̜̤͙̪̤̪͒̓͂͛͐̕̕h̴̢̦̱̮̳̩̾́͗͐ͅi̵̢̟͓͊m̶̩̀͊͘ ̶͓͈̩̲͇̺̍b̶̞̜̍̀̄̾͒̏͒̕͝ȧ̵̺̩͂̄͠c̵̨̍̐͋k̴̡̺̱̪̮̓̽̈́̑̈́ͅ.̵͓̲̼̯̏̚͘","color":"dark_purple"}
+
+
+achievements
+/tellraw @a {"text":"[Advancement Made] Dream has unlocked: \"Speedrun Warp Glitch\"","color":"yellow"}
+
+Mrbeast challenges
+Normal
+/tellraw @a {"text":"[MrBeast] First one to find 3 diamonds gets OP!","color":"gold"}
+
+corrupted skinwalker
+/tellraw @a {"text":"[MrBeast] That wasn't part of the plan...","color":"dark_red"}
+Weird challenges part 2
+/tellraw @a {"text":"[MrBeast] Go to Y level 0. Trust me.","color":"gold"}
+part 2 next
+/tellraw @a {"text":"[MrBeast] 404 Player Not Found","color":"dark_red","italic":true}
+	
+
+
+achievements
+/tellraw @a {"text":"[Advancement Made] MrBeast has unlocked: \"Too Much Money for Survival\"","color":"yellow"}
+
+
+Craftee challenges
+Normal
+/tellraw @a {"text":"[Craftee] Something's not crafting right here...","color":"green"}
+
+corrupted skinwalker
+/tellraw @a {"text":"[Craftee] Cra...Cra...C̵r̵a̷f̵t̵e̶e̸ i̵s̵ ̵n̸o̴t̸ ̵f̸u̵n̸n̵y̷ ̸a̵n̶y̴m̴o̷r̸e̴.̸.̴.̵","color":"red","italic":true}
+playsound scarry
+/playsound minecraft:entity.wither.ambient master @a ~ ~ ~ 1 1
+
+achievements
+/tellraw @a {"text":"[Goal Reached] Craftee has built: \"A Crafting Table That Watches You\"","color":"green"}
+
+Technoblade challenges
+Normal
+/tellraw @a {"text":"[Technoblade] What the hell is this seed.","color":"red"}
+/tellraw @a {"text":"[SERVER] Admin override: WayaSteurbautYTR has been accessed by Technoblade.","color":"gray"}
+
+corrupted skinwalker
+/tellraw @a {"text":"[Dream] H̷͍̐̈́͆ě̷͈̲͉͔̬l̷̢̖͠p̴̭̘̮̐̒̕","color":"dark_red","italic":true}
+
+achievements
+/tellraw @a {"text":"[Challenge Complete] Technoblade has achieved: \"Calculated Chaos\"","color":"light_purple"}
+
+
+Warnings messages
+ part 2
+/title @a title {"text":"HE'S BACK","color":"dark_red","bold":true}
+/title @a subtitle {"text":"You let him in...","color":"gray","italic":true}
+part 2 next step
+/title @a title {"text":"RUN.","color":"red","bold":true}
+/title @a subtitle {"text":"He’s becoming all of us...","color":"dark_gray","italic":true}
+sound scary
+/playsound minecraft:entity.ender_dragon.growl master @a ~ ~ ~ 1 0.5
+then
+glitch screens
+/playsound minecraft:block.portal.trigger master @a ~ ~ ~ 1 0.5
+warning part 2 news
+/tellraw @a {"text":"[NEWS] Craftee is missing. Technoblade corrupted. Dream overwritten. MrBeast... unknown.","color":"red"}
+part 2 next
+/tellraw @a {"text":"[WARNING] If he gets to the End... it's over.","color":"dark_gray"}
+
+part 3 waya joined 5 seconds later
+/title @a title {"text":"IT’S ME","color":"red","bold":true}
+/title @a subtitle {"text":"But not the way you remember...","color":"gray","italic":true}
+/playsound minecraft:entity.warden.angry master @a ~ ~ ~ 1 1
+
+
+
+part 3 final
+evryone in adventure mode
+/gamemode adventure @a
+force evryone to the end
+/execute in minecraft:the_end run tp @a ~ ~ ~
+play two messages and sound
+/title @a title {"text":"The End Begins","color":"dark_red","bold":true}
+/playsound minecraft:entity.ender_dragon.growl master @a ~ ~ ~ 1 0.8
+more messages final
+/tellraw @a {"text":"[Skinwalker] I used all their faces. Now I wear yours.","color":"dark_red"}
+/title @a title {"text":"You Let Him In","color":"dark_red","bold":true}
+/title @a subtitle {"text":"Now… the world ends.","color":"gray"}
+kill evryone
+/kill @a
+finnal sound
+/playsound minecraft:entity.wither.spawn master @a ~ ~ ~ 1 1
+
+finnal news broadcasts
+/tellraw @a {"text":"[BREAKING NEWS] WayaSteurbautYTR has vanished. Last seen entering the End.","color":"gray"}
+/tellraw @a {"text":"[NEWS] All YouTubers presumed deleted.","color":"red"}
+/tellraw @a {"text":"[SYSTEM] The Skinwalker has won.","color":"dark_red"}
+
+Build more paranoia
+/tellraw @a {"text":"[BREAKING NEWS] SkinWalker Entities are breached on the Server. Trust no one. If your friends disappear and come back, check them immediately. Even YouTubers can't be trusted.","color":"dark_red","bold":true}
+/tellraw @a {"text":"[INFO] MrBeast has rejoined... but something feels off. He’s not speaking.","color":"red"}
+/tellraw @a {"text":"[SERVER] Warning: Unknown player data signature detected. Player \"Technoblade\" integrity = CORRUPTED.","color":"dark_gray"}
+/tellraw @a {"text":"[TIP] If a player stops talking, won’t sleep, and stares at you—RUN.","color":"gold"}
+/tellraw @a {"text":"[ALERT] Multiple disappearances confirmed. SkinWalkers can copy skins, voices, and habits...","color":"dark_red"}
+/tellraw @a {"text":"[SYSTEM LOG] Dream sent a private message to the Skinwalker. Message content: \"How do I join you?\"","color":"gray"}
+/tellraw @a {"text":"[ADMIN WARNING] Do NOT trust names. Check behavior. Check movement. Check chat patterns.","color":"red","bold":true}
+
+talk seqence  skiwalkers plan 1
+/tellraw @a {"text":"[??]: Phase One is complete. The player base is confused.","color":"dark_gray"}
+/tellraw @a {"text":"[??]: Good. Let their trust rot. The more fear, the easier they break.","color":"dark_gray"}
+/tellraw @a {"text":"[??]: I have already taken one of the big ones. They don’t even suspect.","color":"dark_gray"}
+/tellraw @a {"text":"[??]: Excellent. Continue copying the YouTubers. When the event begins, we strike together.","color":"dark_gray"}
+/tellraw @a {"text":"[??]: The End will be their last hope. And their final mistake.","color":"dark_gray"}
+
+skinwalkers explain there plan 2
+/tellraw @a {"text":"[Skinwalker]: They welcomed us. Laughed with us. Gave us roles, gear, trust...","color":"dark_purple"}
+/tellraw @a {"text":"[Skinwalker]: Now we wear their faces. Speak in their tone. We ARE them.","color":"dark_purple"}
+/tellraw @a {"text":"[Skinwalker]: Soon, not even the real YouTubers will remember who they are.","color":"dark_purple"}
+/tellraw @a {"text":"[Skinwalker]: When the End opens, we’ll gather them. One final hunt. No respawns.","color":"dark_purple"}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,69 @@
+# Skinwalker Mod Development Rules
+
+## Code Style
+- Use Java 17 features
+- Follow Minecraft/Fabric naming conventions
+- Use proper package structure: `net.skinwalker`
+- All classes should be well-documented
+- Use meaningful variable names
+
+## File Encoding
+- ALWAYS use UTF-8 encoding for all file operations
+- Use `encoding='utf-8'` in Python file operations
+- Use UTF-8 for Java source files
+
+## Minecraft/Fabric Patterns
+- Use Fabric API events and callbacks
+- Register commands via `CommandRegistrationCallback.EVENT`
+- Use `ServerTickEvents` for per-tick logic
+- Use `ServerPlayConnectionEvents` for player join/leave
+- Use `ServerMessageEvents` for chat handling
+
+## Error Handling
+- Always handle exceptions gracefully
+- Log errors with context
+- Never crash the server
+- Provide user-friendly error messages
+
+## API Integration
+- Store API keys in config files, never hardcode
+- Use async operations for API calls
+- Handle rate limits and errors
+- Cache responses when appropriate
+
+## Skin System
+- Support both URL and player name skins
+- Validate skin URLs before use
+- Handle skin loading failures gracefully
+- Cache skin data to reduce API calls
+
+## Bot System
+- Make bot responses contextual
+- Include bot name in personality prompts
+- Handle API failures without breaking gameplay
+- Use async for all API calls
+
+## Story System
+- Organize commands by chapter/phase
+- Use proper Minecraft text formatting codes
+- Support both broadcast and targeted messages
+- Chain commands for complex sequences
+
+## Testing
+- Test all commands in-game
+- Verify skin loading works
+- Test bot responses
+- Ensure no server crashes
+
+## Performance
+- Avoid heavy operations on main thread
+- Use async for network operations
+- Cache frequently accessed data
+- Optimize tick-based operations
+
+## Security
+- Never expose API keys in code
+- Validate all user inputs
+- Sanitize chat messages
+- Check permissions for all commands
+
